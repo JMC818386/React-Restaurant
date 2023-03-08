@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Nav from './Nav';
-import MenuSection from './MenuSection';
-import Footer from './Footer';
+import Nav from './components/Nav';
+import MenuSection from './components/MenuSection';
+import Footer from './components/Footer';
 
 
 

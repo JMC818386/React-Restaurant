@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import MenuItem from './MenuItem';
+import axios from 'axios';
 
 
 
 function MenuSection() {
-    //api call goes here
     return (
-        //map over api data to render menu items to menusection
-        <h1>This is the Menu Section component</h1>
+        //map over api data to render menu items to menu section
+        <MenuItem />
     )
 }
 
-export default MenuSection
+export default MenuSection;

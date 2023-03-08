@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from './components/Nav';
+import TopNav from './components/TopNav';
 import MenuSection from './components/MenuSection';
 import Footer from './components/Footer';
 
@@ -7,7 +7,10 @@ import Footer from './components/Footer';
 
 function App() {
     return (
-        <h1>This is the App Component</h1>
+        <div>
+            <TopNav />
+            <MenuSection />
+        </div>
     )
 }
 

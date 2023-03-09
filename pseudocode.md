@@ -59,9 +59,16 @@ Use React and Bootstrap to construct the UI, and Axios and the CORS Extension on
 
 ## **Variables**
 STATE
-menuItems 
+menuItems
+itemTitle
+itemDescription
+itemPrice
 
 ## **Functions**
+- getItemTitle()
+- getItemDescription()
+- getItemPrice()
+
 - TopNav()
 - MenuSection()
 - MenuItem()
@@ -74,6 +81,10 @@ menuItems
     START
     INIT
 
+	DISPLAY TopNav and Footer components
+	GET API data through axois.get request
+		DISPLAY MenuItem component
+			SHOW title, description, price
 
     END
 

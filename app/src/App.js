@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import TopNav from './components/TopNav';
 import MenuSection from './components/MenuSection';
 import Footer from './components/Footer';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
         <div>
             <TopNav />
             <MenuSection />
+            <Footer />
         </div>
     )
 }

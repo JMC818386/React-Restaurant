@@ -55,7 +55,7 @@ Use React and Bootstrap to construct the UI, and Axios and the CORS Extension on
 	    - TopNav.js
 	    - MenuSection.js
 		    - MenuItem.js
-	- Footer.js
+	    - Footer.js
 
 ## **Variables**
 STATE
@@ -76,5 +76,5 @@ menuItems
 
 
     END
-    
+
 //END PROGRAM

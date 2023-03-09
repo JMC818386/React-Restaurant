@@ -7,10 +7,10 @@ function TopNav() {
       <div className="mb-5">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand style={{fontSize: 40}} href="#home">Restaurant Name</Navbar.Brand>
+            <Navbar.Brand style={{fontSize: 40}} href="#home">Merica's Diner</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto mr-5">
+              <Nav className="me-auto mr-5 d-flex justify-content-end">
                 <Nav.Link>Menu</Nav.Link>
                 <Nav.Link>About</Nav.Link>
                 <Nav.Link>Contact</Nav.Link>

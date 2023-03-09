@@ -6,11 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
-        <div>
-            <TopNav />
-            <MenuSection />
-            <Footer />
-        </div>
+        
+            <div>
+                <TopNav />
+                <MenuSection />
+                <Footer />
+            </div>
     )
 }
 

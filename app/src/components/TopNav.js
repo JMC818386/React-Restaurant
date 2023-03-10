@@ -10,7 +10,7 @@ function TopNav() {
             <Navbar.Brand style={{fontSize: 40}} href="#home">Merica's Diner</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto mr-5 d-flex justify-content-end">
+              <Nav>
                 <Nav.Link>Menu</Nav.Link>
                 <Nav.Link>About</Nav.Link>
                 <Nav.Link>Contact</Nav.Link>

@@ -9,7 +9,7 @@ function MenuSection() {
 
     const [menuItems, setMenuItems] = useState([]);
 
-    const items = menuItems.filter(item => item.cuisine_type === "American").map(item => <MenuItem key={item.id} food={item} drink={"cup"} />);
+    const items = menuItems.filter(item => item.cuisine_type === "American").map(item => <MenuItem key={item.id} food={item} />);
     console.log("ITEMS", items);
 
     useEffect (() => {
@@ -18,12 +18,9 @@ function MenuSection() {
             axios.get('https://www.jsonkeeper.com/b/MDXW')
             .then(function (response) {
             // handle success
-            console.log(response);
+            //console.log(response);
             console.log("Access data inside API", response.data);
             setMenuItems(response.data)
-            console.log(response.data[0].title);
-            console.log(response.data[0].description);
-            console.log(response.data[0].price);
             })
             .catch(function (error) {
             // handle error
